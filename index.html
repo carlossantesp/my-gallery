@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Gallery</title>
-  <link rel="shortcut icon" href="./img/devchallenges.png" type="image/x-icon">
-  <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Gallery</title>
+    <link
+      rel="shortcut icon"
+      href="./img/devchallenges.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="profile">
+        <div class="profile__user">
+          <img
+            src="./img/profilePhoto.png"
+            alt="Rodney Cotton"
+            class="profile__img"
+          />
+          <h2 class="profile__title">Rodney Cotton</h2>
+          <p class="profile__info">Helsinki, Finland</p>
+        </div>
+        <div class="profile__social">
+          <div class="social">
+            <p class="social__number">100</p>
+            <p class="social__description">Posts</p>
+          </div>
+          <div class="social">
+            <p class="social__number">2,242</p>
+            <p class="social__description">Followers</p>
+          </div>
+          <div class="social">
+            <p class="social__number">1,432</p>
+            <p class="social__description">Following</p>
+          </div>
+        </div>
+      </section>
+      <main class="gallery">
+        <div class="gallery_img">
+          <img src="./img/photo1.png" alt="Photo 1" />
+        </div>
+        <div class="gallery_img col2">
+          <img src="./img/photo2.png" alt="Photo 2" />
+        </div>
+        <div class="gallery_img col2">
+          <img src="./img/photo3.png" alt="Photo 3" />
+        </div>
+        <div class="gallery_img row2">
+          <img src="./img/photo4.png" alt="Photo 4" />
+        </div>
+        <div class="gallery_img">
+          <img src="./img/photo5.png" alt="Photo 5" />
+        </div>
+        <div class="gallery_img">
+          <img src="./img/photo6.png" alt="Photo 6" />
+        </div>
+      </main>
+      <footer class="footer">
+        <p>Carlos Santillan &copy; <span>DevChallenges.io</span></p>
+      </footer>
+    </div>
+  </body>
 </html>
