@@ -1,0 +1,32 @@
+body{
+  font-family: var(--font-primary);
+  font-weight: var(--font-normal);
+  font-size: var(--size-base);
+  background-color: var(--bg);
+  color: var(--text);
+}
+.profile{
+  &__title{
+    font-size: 0.875rem;
+  }
+  &__info{
+    font-size: 0.75rem;
+    color: var(--accent);
+  }
+}
+.social{
+  background: var(--bg-card);
+  &__number{
+    font-size: 0.875rem;
+  }
+  &__description{
+    font-size: 0.75rem;
+    color: var(--card-accent);
+  }
+}
+.footer{
+  p{
+    color: var(--accent);
+    font-size: 0.875rem;
+  }
+}

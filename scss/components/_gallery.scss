@@ -1,0 +1,19 @@
+.gallery{
+  &__img{
+    width: 100%;
+    border-radius: var(--md);
+    overflow: hidden;
+    img{
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+    &.col2{
+      grid-column: span 2;
+    }
+    &.row2{
+      grid-row: span 2;
+    }
+  }
+}

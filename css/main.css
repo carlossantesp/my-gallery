@@ -1,1 +1,184 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+:root {
+  --font-primary: 'Montserrat', sans-serif;
+  --size-base: 16px;
+  --bg: #fff;
+  --text: #4E5150;
+  --accent: #A9A9A9;
+  --bg-card: #E5E5E5;
+  --card-accent: #BDBDBD;
+  --font-normal: 600;
+  --xs: 0.25rem;
+  --sm: 0.5rem;
+  --md: 1rem;
+  --lg: 1.25rem;
+  --xl: 1.5rem;
+  --xxl: 2rem;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.wrapper {
+  width: 100%;
+  padding: var(--md);
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  gap: var(--md);
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: var(--xl);
+}
+
+.profile__social {
+  width: 100%;
+  padding: 0 var(--sm);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.social {
+  width: 5.5rem;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  gap: var(--sm);
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: var(--sm) var(--md);
+}
+
+.footer p {
+  margin: 0;
+}
+
+.profile__user {
+  text-align: center;
+}
+
+.profile__img {
+  width: 6rem;
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--md);
+}
+
+.profile__title, .profile__info {
+  margin: 0;
+}
+
+.profile__title {
+  padding-top: var(--sm);
+}
+
+.profile__info {
+  padding-top: var(--xs);
+}
+
+.social {
+  margin-top: 1rem;
+  background: #ccc;
+  border-radius: var(--md);
+  padding: var(--md);
+  text-align: center;
+}
+
+.social__number, .social__description {
+  padding: 0;
+  margin: 0.2rem 0 0 0;
+}
+
+.gallery__img {
+  width: 100%;
+  border-radius: var(--md);
+  overflow: hidden;
+}
+
+.gallery__img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery__img.col2 {
+  grid-column: span 2;
+}
+
+.gallery__img.row2 {
+  grid-row: span 2;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-weight: var(--font-normal);
+  font-size: var(--size-base);
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.profile__title {
+  font-size: 0.875rem;
+}
+
+.profile__info {
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+.social {
+  background: var(--bg-card);
+}
+
+.social__number {
+  font-size: 0.875rem;
+}
+
+.social__description {
+  font-size: 0.75rem;
+  color: var(--card-accent);
+}
+
+.footer p {
+  color: var(--accent);
+  font-size: 0.875rem;
+}
+/*# sourceMappingURL=main.css.map */

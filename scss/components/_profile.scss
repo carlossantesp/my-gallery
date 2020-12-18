@@ -1,0 +1,31 @@
+.profile{
+  &__user{
+    text-align: center;
+  }
+  &__img{
+    width: 6rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: var(--md);
+  }
+  &__title, &__info{
+    margin: 0;
+  }
+  &__title{
+    padding-top: var(--sm);
+  }
+  &__info{
+    padding-top: var(--xs);
+  }
+}
+.social{
+  margin-top: 1rem;
+  background: #ccc;
+  border-radius: var(--md);
+  padding: var(--md);
+  text-align: center;
+  &__number, &__description{
+    padding: 0;
+    margin: 0.2rem 0 0 0;
+  }
+}
