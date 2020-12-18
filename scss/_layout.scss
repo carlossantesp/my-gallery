@@ -36,3 +36,44 @@
     margin: 0;
   }
 }
+
+@media (min-width: 768px){
+  .wrapper{
+    max-width: 640px;
+    margin: 0 auto;
+    gap: var(--lg);
+  }
+  .social{
+    width: 7rem;
+  }
+  .profile{
+    &__social{
+      width: 80%;
+      padding: 0 var(--xxl);
+    }
+  }
+  .gallery{
+    gap: var(--lg);
+  }
+}
+@media screen and (min-width: 992px){
+  .wrapper{
+    max-width: 900px;
+    gap: var(--xxl);
+  }
+  .profile{
+    &__social{
+      width: 60%;
+    }
+  }
+}
+@media screen and (min-width: 1200px){
+  .wrapper{
+    max-width: 1000px;
+  }
+  .profile{
+    &__social{
+      width: 50%;
+    }
+  }
+}

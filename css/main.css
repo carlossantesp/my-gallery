@@ -89,6 +89,43 @@ html {
   margin: 0;
 }
 
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+    gap: var(--lg);
+  }
+  .social {
+    width: 7rem;
+  }
+  .profile__social {
+    width: 80%;
+    padding: 0 var(--xxl);
+  }
+  .gallery {
+    gap: var(--lg);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .wrapper {
+    max-width: 900px;
+    gap: var(--xxl);
+  }
+  .profile__social {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    max-width: 1000px;
+  }
+  .profile__social {
+    width: 50%;
+  }
+}
+
 .profile__user {
   text-align: center;
 }
@@ -123,6 +160,12 @@ html {
 .social__number, .social__description {
   padding: 0;
   margin: 0.2rem 0 0 0;
+}
+
+@media screen and (min-width: 992px) {
+  .profile__img {
+    width: 10rem;
+  }
 }
 
 .gallery__img {
@@ -180,5 +223,20 @@ body {
 .footer p {
   color: var(--accent);
   font-size: 0.875rem;
+}
+
+@media screen and (min-width: 992px) {
+  .profile__title {
+    font-size: 1.5rem;
+  }
+  .profile__info {
+    font-size: 0.875rem;
+  }
+  .social__number {
+    font-size: 1.125rem;
+  }
+  .social__description {
+    font-size: 0.875rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

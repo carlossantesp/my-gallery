@@ -30,3 +30,21 @@ body{
     font-size: 0.875rem;
   }
 }
+@media screen and (min-width: 992px){
+  .profile{
+    &__title{
+      font-size: 1.5rem;
+    }
+    &__info{
+      font-size: 0.875rem;
+    }
+  }
+  .social{
+    &__number{
+      font-size: 1.125rem;
+    }
+    &__description{
+      font-size: 0.875rem;
+    }
+  }
+}

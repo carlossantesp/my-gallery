@@ -29,3 +29,10 @@
     margin: 0.2rem 0 0 0;
   }
 }
+@media screen and (min-width: 992px){
+  .profile{
+    &__img{
+      width: 10rem;
+    }
+  }
+}
